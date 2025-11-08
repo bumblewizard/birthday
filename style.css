@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 775px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    background: linear-gradient(to bottom,#a80001, #8d0004, #650002, #4b0000, #400000 );
+}
+
+.stickerone{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stickerone img{
+    height:45%;
+    width: 80%;
+    margin-top: 10px
+}
+
+.stickertwo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-right: 3px;
+    height: 775px;
+    width: 45%;
+    margin: 0%;
+}
+.stickertwo img{
+    height:45%;
+    width: 80%;
+
+}
+
+.banner-box{
+    height: 300px;
+    width: 90%;
+    text-align: center;
+    /* background-color: aquamarine; */
+    align-self: center;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "manrope";
+    color:white;
+    /* font-size: 70px; */
+    line-height: 50px;
+    word-spacing: 1.5px;
+    font-weight: 200;
+}
+
+.banner p{
+    font-size: 60px;
+}
+
+.banner a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+

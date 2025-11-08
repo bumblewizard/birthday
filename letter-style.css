@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.letterbox{
+    height: 2000px;
+    width: 90%;
+    background-color: #efe8d8;
+    text-align: centre;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.date{
+    text-align: end;
+    
+}
+
+p{
+    line-height: 70px;
+    font-size: 50px;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 3;
+}
+
+.end{
+    text-align: end;
+}
+
